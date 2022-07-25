@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar{
+    background-color: #000 !important;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+}
+.navbar .dropdown .dropdown-item{
+    color: rgb(117,117,117);
+}
+
+/* Banner Section Styling */
+#banner{
+    background: url('./assets/images/banner_bg.webp');
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+    border-radius: 0;
+    background-color: white !important;
+}
+.form-control:focus {
+    border: none;
+    outline: none;
+}
+/* Styling for Section 02*/
+#business-uber-banner{
+    background: url("./assets/images/uber-business.png") center/cover;
+}
